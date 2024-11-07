@@ -1,0 +1,14 @@
+After installing the Jenkins and opening the Jenkins in the terminal go to the dashboard
+ Click on manage Jenkins
+ Click on plugins 
+ In plugins click on available plugins
+ Search for thinbackup and install it aŌer installation click on check on restart 
+Jenkins because after installing plugin we need to need the Jenkins for better practice
+Now go to manage Jenkins and go to the boƩom of the page there we can see thinbackup but we can do backup there go to system in manage Jenkins
+In system scroll down to thinbackup configuration
+In backup directory give the path to where we have to keep the backup for example ex: /opt/backup before giving this path go the Jenkins instance terminal 
+add the backup directory using ‘mkdir’ command and then give the owner 
+permission to the Jenkins by using the command ‘chown Jenkins:Jenkins backup’
+Check all the box as shown in the image below and save it
+  Now go to the manage Jenkins scroll down to the thinbox click on it in thinbox page click on backup now to back up the Jenkins
+ Now go to the Jenkins instance and go the /opt/backup and check whether a directory is created or not in the name of FULL with Ɵme date of backup.
